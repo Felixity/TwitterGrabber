@@ -11,26 +11,33 @@ import TwitterKit
 @IBDesignable
 
 class ViewController: UIViewController {
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let logInButton = TWTRLogInButton { (session, error) in
-            if let unwrappedSession = session {
-                let alert = UIAlertController(title: "Logged In",
-                                              message: "User \(unwrappedSession.userName) has logged in",
-                    preferredStyle: UIAlertControllerStyle.alert
-                )
-                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-                self.present(alert, animated: true, completion: nil)
-            } else {
-                NSLog("Login error: %@", error!.localizedDescription);
+        let store = Twitter.sharedInstance().sessionStore
+        
+        if let userID = store.session()?.userID {
+            print("user is logged in with id \(userID)")
+            self.performSegue(withIdentifier: "showTabBarController", sender: self)
+        }
+        else
+        {
+            print("user is not logged in")
+            let logInButton = TWTRLogInButton { (session, error) in
+                if let _ = session {
+                    self.performSegue(withIdentifier: "showTabBarController", sender: self)
+                } else {
+                    print("Login error: \(error!.localizedDescription)");
+                }
             }
+            
+            // TODO: Change where the log in button is positioned in your view
+            logInButton.center = self.view.center
+            self.view.addSubview(logInButton)
         }
         
-        // TODO: Change where the log in button is positioned in your view
-        logInButton.center = self.view.center
-        self.view.addSubview(logInButton)
-
     }
+
 }
 

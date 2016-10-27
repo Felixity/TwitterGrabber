@@ -7,17 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		075B94CE9CED0E4C53982406B0CE138A /* Pods-TwitterGrabber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7478B8F6DE22AD7071019FA8E6613370 /* Pods-TwitterGrabber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D09213C95DA5A0946A9F4751E6F9824 /* Pods-TwitterGrabber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6218DB8C79C060C28F4E9B1DC7A927FD /* Pods-TwitterGrabber-dummy.m */; };
+		2309DF409D22FD77B9EDC55E216FE1F5 /* Pods-TwitterGrabber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6218DB8C79C060C28F4E9B1DC7A927FD /* Pods-TwitterGrabber-dummy.m */; };
 		88BF7B87A919F2B38BA6331269A20288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		8EAEA067258C6D28D08F661C2DEE6BF6 /* Pods-TwitterGrabberTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6C83EBA1656D833F05CF9E4EFAB179 /* Pods-TwitterGrabberTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B033F0511D01BFDBC8527C3642E6FAC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8ED9917C4225BD2EBFA3DFD03551573E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */; };
+		AEB326399CACD87DCC92EE350EBC7916 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */; };
 		CB91905C7B00CFAEBCF828E20D04DFC0 /* Pods-TwitterGrabberTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 415888B992D02329127A098909AF742A /* Pods-TwitterGrabberTests-dummy.m */; };
+		D09EDE6C91F2578DC39B789C04C63841 /* Pods-TwitterGrabber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7478B8F6DE22AD7071019FA8E6613370 /* Pods-TwitterGrabber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D21CC9B9AB1109FD12941ADC629DB494 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE158D7624C5E436DA71350A069471C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F6696D71A610D9B5D2597BB1A13DA499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D194D1684EF45E67A32CFCDB933ECAA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B7D897D0A460096A39EBF599D2D7F7A;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02C204270012679A2CB2FE404E286602 /* Pods-TwitterGrabber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterGrabber.debug.xcconfig"; sourceTree = "<group>"; };
+		05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		1F6C83EBA1656D833F05CF9E4EFAB179 /* Pods-TwitterGrabberTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterGrabberTests-umbrella.h"; sourceTree = "<group>"; };
+		262C5A8FD6EFCB3FBCFF36403CD8C9FE /* Pods_TwitterGrabber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterGrabber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		415888B992D02329127A098909AF742A /* Pods-TwitterGrabberTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitterGrabberTests-dummy.m"; sourceTree = "<group>"; };
 		4402F16A76607D783AD805EFFF2C41ED /* Pods-TwitterGrabberTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterGrabberTests-resources.sh"; sourceTree = "<group>"; };
 		470162A18339CF3B538A4D7FE2F80E80 /* Pods-TwitterGrabberTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TwitterGrabberTests.modulemap"; sourceTree = "<group>"; };
@@ -30,19 +48,31 @@
 		7478B8F6DE22AD7071019FA8E6613370 /* Pods-TwitterGrabber-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterGrabber-umbrella.h"; sourceTree = "<group>"; };
 		75B0B30E19A69C9938E54D81F24963D7 /* Pods-TwitterGrabber-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterGrabber-acknowledgements.markdown"; sourceTree = "<group>"; };
 		82C5E3C1DF91262C5B83905DA18016F0 /* Pods-TwitterGrabber-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterGrabber-acknowledgements.plist"; sourceTree = "<group>"; };
+		82E6F312ADE0FE5A8BF815D3B45D4C7C /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A58550C0C948035EF564F0937D72A6 /* Pods-TwitterGrabber-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterGrabber-resources.sh"; sourceTree = "<group>"; };
+		A7C9BD398E7FCAE244318C08226121B9 /* Pods_TwitterGrabberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterGrabberTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A91943303F1A431AAECF21C51ABAA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6E42F156260F4A4C677FB179A59A256 /* Pods_TwitterGrabber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterGrabber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9569E52828BF6D300EE01020F601A5C /* Pods-TwitterGrabberTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterGrabberTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		D424D3998DFE1420EE844A199296B195 /* Pods-TwitterGrabberTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterGrabberTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DE07544FEB504B14A290F338A5E98A73 /* Pods-TwitterGrabberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterGrabberTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF0EE156709E18BA142FC636002B5C5D /* Pods-TwitterGrabber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TwitterGrabber.modulemap"; sourceTree = "<group>"; };
-		EEF5CC7B0FF1D6CAFFDA1D1386DECCA9 /* Pods_TwitterGrabberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterGrabberTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		34EAFF9B9830BEF7FF2CCE90FBF22A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6696D71A610D9B5D2597BB1A13DA499 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5BB003C9347E7A8FD03F130F5AFB73A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,11 +81,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0A76EB70242AF159BF03589C7A12CC1 /* Frameworks */ = {
+		9766DA449B5978376516467BD46A9686 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B033F0511D01BFDBC8527C3642E6FAC9 /* Foundation.framework in Frameworks */,
+				DE158D7624C5E436DA71350A069471C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,13 +101,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		673839FC0F30113D0E2A0A18E0B09C7D /* Products */ = {
+		22241F3A750623B18E4EF197A23AED2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6E42F156260F4A4C677FB179A59A256 /* Pods_TwitterGrabber.framework */,
-				EEF5CC7B0FF1D6CAFFDA1D1386DECCA9 /* Pods_TwitterGrabberTests.framework */,
+				262C5A8FD6EFCB3FBCFF36403CD8C9FE /* Pods_TwitterGrabber.framework */,
+				A7C9BD398E7FCAE244318C08226121B9 /* Pods_TwitterGrabberTests.framework */,
+				82E6F312ADE0FE5A8BF815D3B45D4C7C /* SwiftyJSON.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */,
+				8EC39E1DC11846207722B71AAFE40F98 /* Support Files */,
+			);
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -93,9 +133,24 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				673839FC0F30113D0E2A0A18E0B09C7D /* Products */,
+				BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */,
+				22241F3A750623B18E4EF197A23AED2C /* Products */,
 				002FF675C50F857D7FC7799F4997AA5D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8EC39E1DC11846207722B71AAFE40F98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */,
+				D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */,
+				2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */,
+				32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */,
+				BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */,
+				05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
 		98F0796D3854E4FD268C18AEEE12E6BD /* Pods-TwitterGrabber */ = {
@@ -124,6 +179,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D38834CAE5338C1F0B45CA97F9B0595B /* Pods-TwitterGrabberTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +208,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		09DEFC2DF6B0F9731FF20BC4DC62C3EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09EDE6C91F2578DC39B789C04C63841 /* Pods-TwitterGrabber-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11F94E848DF77857428D2059921E528B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,17 +224,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B59AB148DD37BE0B0A484F4C4C8D1CAD /* Headers */ = {
+		9DE736A997C48EEC08AD16CED21BAB93 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075B94CE9CED0E4C53982406B0CE138A /* Pods-TwitterGrabber-umbrella.h in Headers */,
+				D21CC9B9AB1109FD12941ADC629DB494 /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0632A3E7B3C4E558CBB48FDEB9FAD77B /* Pods-TwitterGrabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FABF8B39E6591BD8E32935716D996A /* Build configuration list for PBXNativeTarget "Pods-TwitterGrabber" */;
+			buildPhases = (
+				146755222260DFB61E0B4289F0505202 /* Sources */,
+				9766DA449B5978376516467BD46A9686 /* Frameworks */,
+				09DEFC2DF6B0F9731FF20BC4DC62C3EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C2786DBAB97D11280105C27E9FDD23 /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitterGrabber";
+			productName = "Pods-TwitterGrabber";
+			productReference = 262C5A8FD6EFCB3FBCFF36403CD8C9FE /* Pods_TwitterGrabber.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B7D897D0A460096A39EBF599D2D7F7A /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39619160334A54CA73FEC47FD9DAD358 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				9F7919A8CDA2B932F259B845CF70199A /* Sources */,
+				34EAFF9B9830BEF7FF2CCE90FBF22A36 /* Frameworks */,
+				9DE736A997C48EEC08AD16CED21BAB93 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 82E6F312ADE0FE5A8BF815D3B45D4C7C /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D72A57AF3D94E4FB20D24A91D77C3B5B /* Pods-TwitterGrabberTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D71B749B83CADA1E285E569AD783590 /* Build configuration list for PBXNativeTarget "Pods-TwitterGrabberTests" */;
@@ -178,24 +284,7 @@
 			);
 			name = "Pods-TwitterGrabberTests";
 			productName = "Pods-TwitterGrabberTests";
-			productReference = EEF5CC7B0FF1D6CAFFDA1D1386DECCA9 /* Pods_TwitterGrabberTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F8919F55D0EC0F84C1D4F62563FADDE4 /* Pods-TwitterGrabber */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3957D7BFF75429A58D1309C5275ED916 /* Build configuration list for PBXNativeTarget "Pods-TwitterGrabber" */;
-			buildPhases = (
-				6597ADE482DAF0AFD6F753EF0FC93829 /* Sources */,
-				C0A76EB70242AF159BF03589C7A12CC1 /* Frameworks */,
-				B59AB148DD37BE0B0A484F4C4C8D1CAD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TwitterGrabber";
-			productName = "Pods-TwitterGrabber";
-			productReference = B6E42F156260F4A4C677FB179A59A256 /* Pods_TwitterGrabber.framework */;
+			productReference = A7C9BD398E7FCAE244318C08226121B9 /* Pods_TwitterGrabberTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -215,22 +304,32 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 673839FC0F30113D0E2A0A18E0B09C7D /* Products */;
+			productRefGroup = 22241F3A750623B18E4EF197A23AED2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8919F55D0EC0F84C1D4F62563FADDE4 /* Pods-TwitterGrabber */,
+				0632A3E7B3C4E558CBB48FDEB9FAD77B /* Pods-TwitterGrabber */,
 				D72A57AF3D94E4FB20D24A91D77C3B5B /* Pods-TwitterGrabberTests */,
+				4B7D897D0A460096A39EBF599D2D7F7A /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6597ADE482DAF0AFD6F753EF0FC93829 /* Sources */ = {
+		146755222260DFB61E0B4289F0505202 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D09213C95DA5A0946A9F4751E6F9824 /* Pods-TwitterGrabber-dummy.m in Sources */,
+				2309DF409D22FD77B9EDC55E216FE1F5 /* Pods-TwitterGrabber-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7919A8CDA2B932F259B845CF70199A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB326399CACD87DCC92EE350EBC7916 /* SwiftyJSON-dummy.m in Sources */,
+				8ED9917C4225BD2EBFA3DFD03551573E /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +343,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		99C2786DBAB97D11280105C27E9FDD23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 4B7D897D0A460096A39EBF599D2D7F7A /* SwiftyJSON */;
+			targetProxy = D194D1684EF45E67A32CFCDB933ECAA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		083A5F1BD0BA03AB45037CB79EFBB27A /* Debug */ = {
+		0F4CA5FD7D7F3BA6FC21B3BE08A3086E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02C204270012679A2CB2FE404E286602 /* Pods-TwitterGrabber.debug.xcconfig */;
+			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -260,25 +368,55 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TwitterGrabber/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TwitterGrabber/Pods-TwitterGrabber.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TwitterGrabber;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		11B3840C7682FF3D9C2ABBC58E1AD84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -324,6 +462,42 @@
 			};
 			name = Debug;
 		};
+		4EBE466B39FD2559B94DAF29956FBF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C204270012679A2CB2FE404E286602 /* Pods-TwitterGrabber.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterGrabber/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterGrabber/Pods-TwitterGrabber.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TwitterGrabber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5D031C40E174940D3B0D7F0A20B077B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE07544FEB504B14A290F338A5E98A73 /* Pods-TwitterGrabberTests.debug.xcconfig */;
@@ -359,7 +533,7 @@
 			};
 			name = Debug;
 		};
-		7F88EF4A1A201A2F2EE9E099B6CF6980 /* Release */ = {
+		78C5196D661281BE4C01C16403DBB6B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6482CF47DADFBFB56984D348B450D29B /* Pods-TwitterGrabber.release.xcconfig */;
 			buildSettings = {
@@ -481,11 +655,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3957D7BFF75429A58D1309C5275ED916 /* Build configuration list for PBXNativeTarget "Pods-TwitterGrabber" */ = {
+		39619160334A54CA73FEC47FD9DAD358 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				083A5F1BD0BA03AB45037CB79EFBB27A /* Debug */,
-				7F88EF4A1A201A2F2EE9E099B6CF6980 /* Release */,
+				0F4CA5FD7D7F3BA6FC21B3BE08A3086E /* Debug */,
+				11B3840C7682FF3D9C2ABBC58E1AD84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51FABF8B39E6591BD8E32935716D996A /* Build configuration list for PBXNativeTarget "Pods-TwitterGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBE466B39FD2559B94DAF29956FBF74 /* Debug */,
+				78C5196D661281BE4C01C16403DBB6B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

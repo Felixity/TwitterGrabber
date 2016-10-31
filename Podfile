@@ -6,7 +6,9 @@ target 'TwitterGrabber' do
   use_frameworks!
 
   # Pods for TwitterGrabber
-  pod 'SwiftyJSON'
+  pod 'SwiftyJSON', '3.0.0'
+  pod 'Fabric'
+  pod 'TwitterKit'
 
   target 'TwitterGrabberTests' do
     inherit! :search_paths

@@ -8,11 +8,12 @@
 
 import UIKit
 import TwitterKit
+
 @IBDesignable
 
 class ViewController: UIViewController {
     
-    private var isSessionActive: Bool = false
+    fileprivate var isSessionActive: Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,12 +42,12 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-
-       if isSessionActive
-       {
-        self.performSegue(withIdentifier: "showTabBarController", sender: self)
+        
+        if isSessionActive
+        {
+            self.performSegue(withIdentifier: "showTabBarController", sender: self)
         }
     }
-
+    
 }
 

@@ -11,13 +11,13 @@ import SwiftyJSON
 
 class Tweet
 {
-    init (imageData: String, textData: String)
+    init (url: NSURL, textData: String)
     {
-        image = imageData
+        profileImageURL = url
         text = textData
     }
     
     var text: String
     
-    var image: String
+    var profileImageURL: NSURL
 }

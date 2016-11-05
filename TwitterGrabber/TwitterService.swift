@@ -30,7 +30,7 @@ class TwitterService
             let client = TWTRAPIClient(userID: userID)
             
             let resourceURL = "https://api.twitter.com/1.1/statuses/home_timeline.json"
-            let param: [String : Any] = ["user_id" : userID, "count" : "20", "include_rts" : "true"]
+            let param: [String : Any] = ["user_id" : userID, "count" : "100", "include_rts" : "true"]
             var clientError : NSError?
             
             let request = client.urlRequest(withMethod: "GET", url: resourceURL, parameters: param, error: &clientError)
@@ -45,7 +45,7 @@ class TwitterService
                     
                     for json in jsonResponse.arrayValue
                     {
-                        tweetCollection.append(Tweet(imageData: json["user"]["profile_image_url"].description, textData: json["text"].description))
+                        tweetCollection.append(Tweet(url: json["user"]["profile_image_url"].URL!, textData: json["text"].description))
                     
                     onComplete(tweetCollection)
                     }

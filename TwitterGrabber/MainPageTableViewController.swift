@@ -14,7 +14,10 @@ class MainPageTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.estimatedRowHeight = tableView.rowHeight
+        tableView.rowHeight = UITableViewAutomaticDimension
         
+        TwitterService.instance.getTweets(for: TwitterService.instance.userID, onComplete: onTweetsReceived)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -28,15 +31,15 @@ class MainPageTableViewController: UITableViewController {
         tableView.reloadData()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    @IBAction func refresh(_ sender: UIRefreshControl) {
         TwitterService.instance.getTweets(for: TwitterService.instance.userID, onComplete: onTweetsReceived)
+        sender.endRefreshing()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
+//    override func viewDidAppear(_ animated: Bool) {
+//        super.viewDidAppear(animated)
+//        TwitterService.instance.getTweets(for: TwitterService.instance.userID, onComplete: onTweetsReceived)
+//    }
 
     // MARK: - Table view data source
 
@@ -47,19 +50,14 @@ class MainPageTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        print("count: \(tweets.count)")
         return tweets.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "tweetCell", for: indexPath)
-
-        let imageData = NSData(contentsOf: URL(string: tweets[indexPath.row].image)!)
-        // Configure the cell...
-
-        cell.textLabel?.text = tweets[indexPath.row].text
-        cell.imageView?.image = UIImage(data: imageData as! Data)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "tweetCell", for: indexPath) as! TweetTableViewCell
+        
+        cell.tweet = tweets[indexPath.row]
         return cell
     }
     
